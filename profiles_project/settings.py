@@ -129,3 +129,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = ('http://localhost8000',)
 CSRF_TRUSTED_ORIGINS = ['http://localhost8000', 'http://localhost8000']
+
+AUTH_USER_MODEL = 'profiles_api.UserProfile'
